@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="MDPointShopDetailTableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="289" id="KGk-i7-Jjw" customClass="MDPointShopDetailTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="269"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="马尔代夫旅游纪念品" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WP3-BY-F8e">
+                        <rect key="frame" x="10" y="0.0" width="347" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="RSi-pN-EfI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XMc-54-pD9" customClass="PayNumberView">
+                        <rect key="frame" x="255" y="72" width="110" height="34"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="0uo-Tb-TKK"/>
+                            <constraint firstAttribute="height" constant="34" id="Nk9-bh-NSq"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E2c-2q-OD5">
+                        <rect key="frame" x="0.0" y="56" width="375" height="1"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Tq5-Tq-Y6H"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w84-Zl-vZZ">
+                        <rect key="frame" x="10" y="131" width="4" height="15"/>
+                        <color key="backgroundColor" red="0.92156862750000001" green="0.24313725489999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="kwI-3i-W4f"/>
+                            <constraint firstAttribute="width" constant="4" id="n4E-aq-2kh"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jia" translatesAutoresizingMaskIntoConstraints="NO" id="RkP-Ia-rDd">
+                        <rect key="frame" x="10" y="32" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="grc-XJ-bPO"/>
+                            <constraint firstAttribute="width" constant="20" id="hgM-i6-DhP"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="60" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6h-1d-c4Y">
+                        <rect key="frame" x="33" y="32" width="324" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="H1Y-eF-HwJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.92156862750000001" green="0.24313725489999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择数量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5r-QC-JfH">
+                        <rect key="frame" x="10" y="57" width="80" height="64"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="Ka8-F8-u8B"/>
+                            <constraint firstAttribute="height" constant="64" id="QMC-tG-jaD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f7T-CH-rUe">
+                        <rect key="frame" x="10" y="156" width="355" height="113"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="113" id="q9N-t2-kxw"/>
+                        </constraints>
+                        <string key="text">    海洋国旅-马尔代夫哪里最好玩-实地考察。精选高端酒店。马尔代夫哪里最好玩品质岛屿列表。专业马尔代夫哪里最好玩选岛，马尔代夫高端代理，精选马尔代夫哪里最好玩适合蜜月旅行。是你旅游度假的不二选择，去马尔代夫，享受天堂般的生活。海洋国旅-马尔代夫哪里最好玩-实地考察。精选高端酒店。马尔代夫哪里最好玩品质岛屿列表。专业马尔代夫哪里最好玩选岛，马尔代夫高端代理，精选马尔代夫哪里最好玩适合蜜月旅行。是你旅游度假的不二选择，去马尔代夫，享受天堂般的生活。海洋国旅-马尔代夫哪里最好玩-实地考察。精选高端酒店。马尔代夫哪里最好玩品质岛屿列表。专业马尔代夫哪里最好玩选岛，马尔代夫高端代理，精选马尔代夫哪里最好玩适合蜜月旅行。是你旅游度假的不二选择，去马尔代夫，享受天堂般的生活。海洋国旅-马尔代夫哪里最好玩-实地考察。精选高端酒店。马尔代夫哪里最好玩品质岛屿列表。专业马尔代夫哪里最好玩选岛，马尔代夫高端代理，精选马尔代夫哪里最好玩适合蜜月旅行。是你旅游度假的不二选择，去马尔代夫，享受天堂般的生活。</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.27843137254901962" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品详情" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oB-2J-ADk">
+                        <rect key="frame" x="24" y="131" width="341" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.27843137254901962" green="0.27843137254901962" blue="0.27843137254901962" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="O6h-1d-c4Y" firstAttribute="centerY" secondItem="RkP-Ia-rDd" secondAttribute="centerY" id="0sE-gp-WpA"/>
+                    <constraint firstItem="RkP-Ia-rDd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="5Xc-do-e4t"/>
+                    <constraint firstItem="w84-Zl-vZZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="5af-Su-aXZ"/>
+                    <constraint firstItem="f7T-CH-rUe" firstAttribute="top" secondItem="2oB-2J-ADk" secondAttribute="bottom" constant="10" id="5f9-5w-bju"/>
+                    <constraint firstItem="WP3-BY-F8e" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="C5z-PR-gb5"/>
+                    <constraint firstItem="XMc-54-pD9" firstAttribute="centerY" secondItem="Z5r-QC-JfH" secondAttribute="centerY" id="EQD-f7-agP"/>
+                    <constraint firstItem="2oB-2J-ADk" firstAttribute="centerY" secondItem="w84-Zl-vZZ" secondAttribute="centerY" id="ErI-H2-MBu"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="WP3-BY-F8e" secondAttribute="trailing" constant="10" id="G5Q-Yd-g0J"/>
+                    <constraint firstItem="f7T-CH-rUe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="HbC-wB-18V"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="f7T-CH-rUe" secondAttribute="trailing" constant="2" id="Hv4-rQ-3yj"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="2oB-2J-ADk" secondAttribute="trailing" constant="2" id="Ice-pG-d0D"/>
+                    <constraint firstItem="E2c-2q-OD5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="Nno-hl-JdH"/>
+                    <constraint firstItem="2oB-2J-ADk" firstAttribute="top" secondItem="w84-Zl-vZZ" secondAttribute="top" id="RTV-mc-fjr"/>
+                    <constraint firstItem="O6h-1d-c4Y" firstAttribute="leading" secondItem="RkP-Ia-rDd" secondAttribute="trailing" constant="3" id="VnI-Qj-LRh"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="E2c-2q-OD5" secondAttribute="trailing" constant="-8" id="Wjn-e2-X0h"/>
+                    <constraint firstItem="2oB-2J-ADk" firstAttribute="bottom" secondItem="w84-Zl-vZZ" secondAttribute="bottom" id="XLg-WH-t44"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="f7T-CH-rUe" secondAttribute="bottom" constant="-8" id="ZiP-TU-0kM"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="O6h-1d-c4Y" secondAttribute="trailing" constant="10" id="byt-jZ-3ra"/>
+                    <constraint firstItem="E2c-2q-OD5" firstAttribute="top" secondItem="O6h-1d-c4Y" secondAttribute="bottom" constant="4" id="cVk-WH-Rzm"/>
+                    <constraint firstItem="w84-Zl-vZZ" firstAttribute="top" secondItem="Z5r-QC-JfH" secondAttribute="bottom" constant="10" id="d9b-3l-e7h"/>
+                    <constraint firstItem="Z5r-QC-JfH" firstAttribute="top" secondItem="E2c-2q-OD5" secondAttribute="bottom" id="l1d-qo-dca"/>
+                    <constraint firstItem="Z5r-QC-JfH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="rTc-18-9PT"/>
+                    <constraint firstItem="WP3-BY-F8e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="tRa-FP-SZY"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="XMc-54-pD9" secondAttribute="trailing" constant="2" id="vML-uv-OGq"/>
+                    <constraint firstItem="2oB-2J-ADk" firstAttribute="leading" secondItem="w84-Zl-vZZ" secondAttribute="trailing" constant="10" id="xDM-Kf-mpH"/>
+                    <constraint firstItem="O6h-1d-c4Y" firstAttribute="top" secondItem="WP3-BY-F8e" secondAttribute="bottom" id="zW4-Dp-SRf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="introLabel" destination="f7T-CH-rUe" id="bYF-bl-9d6"/>
+                <outlet property="introLabelHeight" destination="q9N-t2-kxw" id="8bi-Sf-ECC"/>
+                <outlet property="namelLabel" destination="WP3-BY-F8e" id="2U3-wJ-ZDD"/>
+                <outlet property="payNumberView" destination="XMc-54-pD9" id="F1d-8n-3ht"/>
+                <outlet property="priceLabel" destination="O6h-1d-c4Y" id="jbg-GZ-i40"/>
+            </connections>
+            <point key="canvasLocation" x="297.5" y="234"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="jia" width="25" height="25"/>
+    </resources>
+</document>

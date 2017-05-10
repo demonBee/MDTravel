@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MDHotelTableViewCell" id="KGk-i7-Jjw" customClass="MDHotelTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="234"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="233"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PA1-z3-mJa">
+                        <rect key="frame" x="10" y="10" width="355" height="223"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥11856（8人)" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HxM-Cj-Jbp">
+                                <rect key="frame" x="100" y="160" width="245" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="xUF-rC-AbP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="马尔代夫度假村" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dC-WS-U0F">
+                                <rect key="frame" x="10" y="160" width="245" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="SM6-8t-dhs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-hotel-star-0" translatesAutoresizingMaskIntoConstraints="NO" id="4bM-e4-PII">
+                                <rect key="frame" x="266" y="195" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="D0q-PZ-7jl"/>
+                                    <constraint firstAttribute="height" constant="15" id="aSb-Mk-oeM"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-hotel-star-0" translatesAutoresizingMaskIntoConstraints="NO" id="ffM-ch-SYh">
+                                <rect key="frame" x="282" y="195" width="15" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-hotel-star-0" translatesAutoresizingMaskIntoConstraints="NO" id="Gma-yA-f1s">
+                                <rect key="frame" x="298" y="195" width="15" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-hotel-star-0" translatesAutoresizingMaskIntoConstraints="NO" id="ELa-jH-w35">
+                                <rect key="frame" x="314" y="195" width="15" height="15"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-hotel-star-0" translatesAutoresizingMaskIntoConstraints="NO" id="0CZ-YQ-x7Y">
+                                <rect key="frame" x="330" y="195" width="15" height="15"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="度假村" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHq-HH-jYB">
+                                <rect key="frame" x="10" y="192" width="256" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="zEy-eb-AAE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-picture-hotel" translatesAutoresizingMaskIntoConstraints="NO" id="eKK-x3-Rnm">
+                                <rect key="frame" x="0.0" y="0.0" width="355" height="160"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HxM-Cj-Jbp" firstAttribute="top" secondItem="eKK-x3-Rnm" secondAttribute="bottom" id="7jm-8O-6hh"/>
+                            <constraint firstAttribute="trailing" secondItem="eKK-x3-Rnm" secondAttribute="trailing" id="9CB-WT-2iu"/>
+                            <constraint firstItem="eKK-x3-Rnm" firstAttribute="leading" secondItem="PA1-z3-mJa" secondAttribute="leading" id="9p9-KA-9tt"/>
+                            <constraint firstItem="ELa-jH-w35" firstAttribute="leading" secondItem="Gma-yA-f1s" secondAttribute="trailing" constant="1" id="CNw-G2-C81"/>
+                            <constraint firstItem="ffM-ch-SYh" firstAttribute="centerY" secondItem="AHq-HH-jYB" secondAttribute="centerY" id="E8Q-I3-lNh"/>
+                            <constraint firstAttribute="bottom" secondItem="eKK-x3-Rnm" secondAttribute="bottom" constant="63" id="EPv-mR-aM4"/>
+                            <constraint firstItem="Gma-yA-f1s" firstAttribute="centerY" secondItem="AHq-HH-jYB" secondAttribute="centerY" id="F1P-dy-Jwq"/>
+                            <constraint firstItem="ffM-ch-SYh" firstAttribute="width" secondItem="4bM-e4-PII" secondAttribute="width" id="FKI-WV-Ppv"/>
+                            <constraint firstItem="0CZ-YQ-x7Y" firstAttribute="leading" secondItem="ELa-jH-w35" secondAttribute="trailing" constant="1" id="NFO-oo-xKD"/>
+                            <constraint firstAttribute="trailing" secondItem="8dC-WS-U0F" secondAttribute="trailing" constant="100" id="Q5O-Wc-4I3"/>
+                            <constraint firstItem="8dC-WS-U0F" firstAttribute="leading" secondItem="PA1-z3-mJa" secondAttribute="leading" constant="10" id="Qxg-Uu-hn7"/>
+                            <constraint firstItem="8dC-WS-U0F" firstAttribute="top" secondItem="eKK-x3-Rnm" secondAttribute="bottom" id="Scy-k2-7oJ"/>
+                            <constraint firstItem="ELa-jH-w35" firstAttribute="height" secondItem="4bM-e4-PII" secondAttribute="height" id="W0w-lM-FFL"/>
+                            <constraint firstItem="AHq-HH-jYB" firstAttribute="leading" secondItem="8dC-WS-U0F" secondAttribute="leading" id="Wuf-bv-CAR"/>
+                            <constraint firstItem="Gma-yA-f1s" firstAttribute="leading" secondItem="ffM-ch-SYh" secondAttribute="trailing" constant="1" id="XKc-JY-h4P"/>
+                            <constraint firstItem="0CZ-YQ-x7Y" firstAttribute="height" secondItem="4bM-e4-PII" secondAttribute="height" id="Xba-ZD-30U"/>
+                            <constraint firstAttribute="trailing" secondItem="0CZ-YQ-x7Y" secondAttribute="trailing" constant="10" id="ZpX-e3-xAK"/>
+                            <constraint firstAttribute="trailing" secondItem="HxM-Cj-Jbp" secondAttribute="trailing" constant="10" id="aBb-nz-waD"/>
+                            <constraint firstItem="ffM-ch-SYh" firstAttribute="leading" secondItem="4bM-e4-PII" secondAttribute="trailing" constant="1" id="azx-lG-rwT"/>
+                            <constraint firstItem="ELa-jH-w35" firstAttribute="centerY" secondItem="AHq-HH-jYB" secondAttribute="centerY" id="be4-K1-Dlx"/>
+                            <constraint firstItem="AHq-HH-jYB" firstAttribute="top" secondItem="8dC-WS-U0F" secondAttribute="bottom" id="btT-8i-ohd"/>
+                            <constraint firstItem="0CZ-YQ-x7Y" firstAttribute="centerY" secondItem="AHq-HH-jYB" secondAttribute="centerY" id="duY-Ta-tGY"/>
+                            <constraint firstItem="Gma-yA-f1s" firstAttribute="width" secondItem="4bM-e4-PII" secondAttribute="width" id="fpH-zQ-wms"/>
+                            <constraint firstItem="HxM-Cj-Jbp" firstAttribute="leading" secondItem="PA1-z3-mJa" secondAttribute="leading" constant="100" id="ghH-Zh-5e2"/>
+                            <constraint firstItem="Gma-yA-f1s" firstAttribute="height" secondItem="4bM-e4-PII" secondAttribute="height" id="htC-R5-FIM"/>
+                            <constraint firstItem="ELa-jH-w35" firstAttribute="width" secondItem="4bM-e4-PII" secondAttribute="width" id="omK-T9-aYj"/>
+                            <constraint firstItem="4bM-e4-PII" firstAttribute="leading" secondItem="AHq-HH-jYB" secondAttribute="trailing" id="qrV-Kq-Hf2"/>
+                            <constraint firstItem="eKK-x3-Rnm" firstAttribute="top" secondItem="PA1-z3-mJa" secondAttribute="top" id="qzJ-bf-4IC"/>
+                            <constraint firstItem="AHq-HH-jYB" firstAttribute="trailing" secondItem="8dC-WS-U0F" secondAttribute="trailing" id="vwn-IF-hGW"/>
+                            <constraint firstItem="ffM-ch-SYh" firstAttribute="height" secondItem="4bM-e4-PII" secondAttribute="height" id="wPh-rk-DnO"/>
+                            <constraint firstItem="0CZ-YQ-x7Y" firstAttribute="width" secondItem="4bM-e4-PII" secondAttribute="width" id="x9o-ie-n2g"/>
+                            <constraint firstItem="4bM-e4-PII" firstAttribute="centerY" secondItem="AHq-HH-jYB" secondAttribute="centerY" id="ySq-1X-dWb"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="vwn-IF-hGW"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="PA1-z3-mJa" secondAttribute="bottom" constant="-8" id="2bD-2X-3Nc"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="PA1-z3-mJa" secondAttribute="trailing" constant="2" id="6ak-cp-BYG"/>
+                    <constraint firstItem="PA1-z3-mJa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="98F-nT-e3h"/>
+                    <constraint firstItem="PA1-z3-mJa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="n3s-l0-8Hf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="nameLabel" destination="8dC-WS-U0F" id="gNp-X2-Djl"/>
+                <outlet property="priceLabel" destination="HxM-Cj-Jbp" id="Xig-Ea-bYh"/>
+                <outlet property="showImageView" destination="eKK-x3-Rnm" id="AXw-Gf-jMe"/>
+                <outlet property="tagLabel" destination="AHq-HH-jYB" id="qxi-Wt-iYN"/>
+            </connections>
+            <point key="canvasLocation" x="156.5" y="220"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home-hotel-star-0" width="12" height="12"/>
+        <image name="home-picture-hotel" width="355" height="161"/>
+    </resources>
+</document>

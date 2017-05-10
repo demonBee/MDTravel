@@ -1,0 +1,101 @@
+//
+//  Maldives.pch
+//  Maldives
+//
+//  Created by Tian Wei You on 16/8/8.
+//  Copyright © 2016年 Shanghai DuRui Information Technology Company. All rights reserved.
+//
+
+#ifndef Maldives_pch
+#define Maldives_pch
+
+#import "AppDelegate.h"
+#import "GlobalInfo.h"         //保存地址
+#import "UserSession.h"         //登录信息
+
+//库
+#import "YYModel.h"
+#import "MJRefresh.h"
+#import "AFNetworking.h"
+#import "MBProgressHUD.h"
+#import "Masonry.h"
+#import "SDWebImageManager.h"
+#import "HttpManager.h"
+#import "UIImageView+WebCache.h"
+
+#import "AMTumblrHud.h"   // 加载的三个球
+//#import "InternationalLanguage.h"   //国际化
+#import "UITableView+FDTemplateLayoutCell.h"     //计算高度
+
+//#import "JWTools/JWClass.h"     //自己的工具包
+#import "JWTools.h"
+#import "JWClass.h"
+
+#define CURRENCY_DEFAULT @"￥"
+#define SHARE_HTTP @"https://appsto.re/cn/l0dBeb.i"
+#define SHARE_HOTEL_HTTP @"http://121.42.190.20/h5/hotel_detail.html?hotel_id="
+
+//获取屏幕宽度
+#define KScreenWidth  [UIScreen mainScreen].bounds.size.width
+//获取屏幕高度
+#define KScreenHeight [UIScreen mainScreen].bounds.size.height
+//获取导航栏全部高度
+#define NavigationHeight 64.f
+//获取导航栏高度
+#define NavigationBarHeight self.navigationController.navigationBar.frame.size.height
+//获取状态栏高度
+#define StatusBarHeight  [[UIApplication sharedApplication] statusBarFrame].size.height
+//获取tabBar的高度
+#define TabbarDeHeight 49.f
+
+////是否为iphone4
+#define IS_IPHONE_4 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )480 ) < DBL_EPSILON )
+// 系统版本
+#define iOS7 ([UIDevice currentDevice].systemVersion.doubleValue >= 7.0)
+
+// 自定义打印
+#ifdef DEBUG // 调试状态, 打开LOG功能
+#define MyLog(...) NSLog(__VA_ARGS__)
+#define MyFunc(...) MyLog(@"%s", __func__);
+#else // 发布状态, 关闭LOG功能
+#define MyLog(...)
+#define MyFunc(...)
+#endif
+
+
+#define WEAKSELF __weak typeof(self)weakSelf = self;;
+
+//KScreenHeight/667*height
+
+//比例
+#define ACTUAL_WIDTH(width)   KScreenWidth/375*width
+#define ACTUAL_HEIGHT(height)   KScreenHeight/667*height
+
+//保存进userdefault  里面的参数
+#define KUSERDEFAULT [NSUserDefaults standardUserDefaults]
+
+#define AUTOLOGIN    @"autoLogin"            //自动登录账号
+#define AUTOLOGINCODE   @"autoLoginCode"     //自动登录密
+#define ISTHIRDLOGIN    @"isthirdLogin"           //是不是第三方登录
+#define ISTHIRDPARAMS   @"isthirdPARAMS"       //第三方登录的 参数
+
+//#define KLANGUAGE       @"whichLanguage"     // 那种语言 @"en" 或者 @"zh-Hans"
+
+
+//判断设备是什么
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_RETINA ([[UIScreen mainScreen] scale] >= 2.0)
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_MAX_LENGTH (MAX(SCREEN_WIDTH, SCREEN_HEIGHT))
+#define SCREEN_MIN_LENGTH (MIN(SCREEN_WIDTH, SCREEN_HEIGHT))
+
+#define IS_IPHONE_4_OR_LESS (IS_IPHONE && SCREEN_MAX_LENGTH < 568.0)
+#define IS_IPHONE_5 (IS_IPHONE && SCREEN_MAX_LENGTH == 568.0)
+#define IS_IPHONE_6 (IS_IPHONE && SCREEN_MAX_LENGTH == 667.0)
+#define IS_IPHONE_6P (IS_IPHONE && SCREEN_MAX_LENGTH == 736.0)
+
+
+#endif /* Maldives_pch */

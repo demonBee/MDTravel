@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MDClassTableViewCell" rowHeight="146" id="KGk-i7-Jjw" customClass="MDClassTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="141"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="140"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f14-JT-2Cb">
+                        <rect key="frame" x="0.0" y="130" width="374" height="10"/>
+                        <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="6sB-iZ-uyo"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="问" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="961-kR-4Xq">
+                        <rect key="frame" x="10" y="12" width="20" height="20"/>
+                        <color key="backgroundColor" red="1" green="0.75686274509803919" blue="0.023529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="8go-HN-HNC"/>
+                            <constraint firstAttribute="width" constant="20" id="EtC-uK-qBn"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="答" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBX-JF-Cql">
+                        <rect key="frame" x="10" y="42" width="20" height="20"/>
+                        <color key="backgroundColor" red="0.23529411764705882" green="0.89803921568627454" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="马尔代夫哪里好玩？" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RaK-6K-0o4">
+                        <rect key="frame" x="38" y="12" width="326" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Vyk-cu-OvI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="海洋国旅-马尔代夫哪里最好玩-实地考察。精选高端酒店。马尔代夫哪里最好玩品质岛屿列表。专业马尔代夫哪里最好玩选岛，马尔代夫高端代理，精选马尔代夫哪里最好玩适合蜜月旅行。是你旅游度假的不二选择，去马尔代夫，享受天堂般的生活。" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxk-hB-uF0">
+                        <rect key="frame" x="38" y="41" width="326" height="76"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="76" id="wDr-i1-h7Y"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gBX-JF-Cql" firstAttribute="leading" secondItem="961-kR-4Xq" secondAttribute="leading" id="4sx-Xs-FZ1"/>
+                    <constraint firstItem="gBX-JF-Cql" firstAttribute="width" secondItem="961-kR-4Xq" secondAttribute="width" id="8DO-3t-KGb"/>
+                    <constraint firstItem="qxk-hB-uF0" firstAttribute="trailing" secondItem="RaK-6K-0o4" secondAttribute="trailing" id="9jX-i7-LSy"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="f14-JT-2Cb" secondAttribute="trailing" constant="-8" id="Eg1-G7-YJN"/>
+                    <constraint firstItem="qxk-hB-uF0" firstAttribute="top" secondItem="gBX-JF-Cql" secondAttribute="top" id="F5W-BK-fPa"/>
+                    <constraint firstItem="961-kR-4Xq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="HSj-au-6ct"/>
+                    <constraint firstItem="qxk-hB-uF0" firstAttribute="leading" secondItem="RaK-6K-0o4" secondAttribute="leading" id="Iay-6h-6lP"/>
+                    <constraint firstItem="f14-JT-2Cb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="Jyi-Dq-gRi"/>
+                    <constraint firstItem="RaK-6K-0o4" firstAttribute="centerY" secondItem="961-kR-4Xq" secondAttribute="centerY" id="WGk-9M-0hi"/>
+                    <constraint firstItem="gBX-JF-Cql" firstAttribute="height" secondItem="961-kR-4Xq" secondAttribute="height" id="YRH-WT-LoO"/>
+                    <constraint firstItem="gBX-JF-Cql" firstAttribute="top" secondItem="961-kR-4Xq" secondAttribute="bottom" constant="10" id="ZoI-jE-0wl"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="f14-JT-2Cb" secondAttribute="bottom" constant="-8" id="dbm-le-csb"/>
+                    <constraint firstItem="f14-JT-2Cb" firstAttribute="top" secondItem="qxk-hB-uF0" secondAttribute="bottom" constant="13" id="eQ8-vJ-TPG"/>
+                    <constraint firstItem="qxk-hB-uF0" firstAttribute="top" secondItem="RaK-6K-0o4" secondAttribute="bottom" constant="8" id="ixd-T1-URT"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="RaK-6K-0o4" secondAttribute="trailing" constant="2" id="nBJ-2l-Rl2"/>
+                    <constraint firstItem="RaK-6K-0o4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="4" id="okN-iH-KBI"/>
+                    <constraint firstItem="RaK-6K-0o4" firstAttribute="leading" secondItem="961-kR-4Xq" secondAttribute="trailing" constant="8" id="p9H-RU-iJk"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="F5W-BK-fPa"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="aShowLabel" destination="gBX-JF-Cql" id="EK0-t4-vr2"/>
+                <outlet property="answerLabel" destination="qxk-hB-uF0" id="N0N-0N-JPn"/>
+                <outlet property="answerLabelHeigh" destination="wDr-i1-h7Y" id="fTo-MH-DQK"/>
+                <outlet property="bottomView" destination="f14-JT-2Cb" id="hyY-1s-Hex"/>
+                <outlet property="qShowLabel" destination="961-kR-4Xq" id="qFq-xx-kgc"/>
+                <outlet property="questLabel" destination="RaK-6K-0o4" id="u8b-Bp-JU8"/>
+                <outlet property="questLabelHeigh" destination="Vyk-cu-OvI" id="sZ1-t9-02d"/>
+            </connections>
+            <point key="canvasLocation" x="218" y="122.5"/>
+        </tableViewCell>
+    </objects>
+</document>
